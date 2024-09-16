@@ -1,0 +1,1926 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SKILLVITAS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sawarabi+Gothic&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="stylewelco.css">
+</head>
+<body>
+    <header>
+        <div class="wrapper">
+            <nav class="scrolled">
+                <div class="logo">SKILLVITAS</div>
+
+                <ul>
+                    <li>
+                        <a href="#">About</a>
+                    </li>
+                    <li>
+                        <a href="">Workshop</a>
+                    </li>
+                    <li>
+                        <a href="kursus.html">kursus</a>
+                    </li>
+                    <li>
+                        <a href="register.php" class="btn yellow2">Daftar</a>
+                    </li>
+                    <li>
+                        <a href="loginskillvitas.php" class="btn yellow1">Login</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="hero-section">
+                <div class="left">
+                    <h1>
+                        A place to develop creativity with
+                        various fields of expertise
+                    </h1>
+
+                    <p>
+                        Mengembangkan potensi dengan beragam kreativitas
+                        hingga siap terjun langsung di industri
+                    </p>
+
+                    <a href="#" class="btn lihat enrol-icon">Lihat kursus</a>
+
+                </div>
+
+                <div class="right">
+                    <img src="images/Gambar-1.png" alt="">
+                </div>
+
+            </div>
+
+        </div>
+    </header>
+
+    <!-- end of the header section-->
+    <section class="courses-section">
+        <div class="wrapper">
+            <h2 class="light">Program Pelatihan Unggulan</h2>
+
+            <div class="course-programs">
+                <div class="course-program">
+                    <img src="images/gambar-2.png" alt=""/>
+            
+                    <div class="info">
+                    <h3>UI/UX <br />
+                        Design 
+                    </h3>
+                    </div>
+                </div>
+
+                <div class="course-program">
+                    <img src="images/gambar-3.png" alt=""/>
+            
+                    <div class="info">
+                    <h3>Teknologi & <br />
+                        Software</h3>
+                    </div>
+                </div>
+
+                <div class="course-program">
+                    <img src="images/gambar-4.png" alt=""/>
+            
+                    <div class="info">
+                    <h3>Media & Kreatif</h3>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    </section>
+
+    <!-- end of the header section-->
+    <section class="product"> 
+        <div class="wrapper">
+        <p><img src="images/iconprogram.svg" style="float: left; margin:0 20px 0px 0;"/>Kelas Dengan Program Terbaik </p> 
+        <h2>Lihat semua <img src="images/weui_arrow-outlined.svg"/></h2>
+        <button class="pre-btn"><img src="images/arrow.png" alt=""></button>
+        <button class="nxt-btn"><img src="images/arrow.png" alt=""></button>
+        <div class="product-container">
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="images/Bagan1.png" class="product-thumb" alt="">
+                    <button class="card-btn">Lihat Pelatihan</button>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="images/Bagan2.png" class="product-thumb" alt="">
+                    <button class="card-btn">Lihat Pelatihan</button>
+                </div>
+            </div>
+            
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="images/Bagan3.png" class="product-thumb" alt="">
+                    <button class="card-btn">Lihat Pelatihan</button>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="images/Bagan4.png" class="product-thumb" alt="">
+                    <button class="card-btn">Lihat Pelatihan</button>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="images/Bagan5.png" class="product-thumb" alt="">
+                    <button class="card-btn">Lihat Pelatihan</button>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="images/Bagan3.png" class="product-thumb" alt="">
+                    <button class="card-btn">Lihat Pelatihan</button>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="images/Bagan5.png" class="product-thumb" alt="">
+                    <button class="card-btn">Lihat Pelatihan</button>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="images/Bagan1.png" class="product-thumb" alt="">
+                    <button class="card-btn">Lihat Pelatihan</button>
+                </div>
+            </div>
+        
+        </div>
+    </section>  
+            
+
+     <!-- end of the header section-->
+
+     <section class="courses-section1">
+        <div class="wrapper1">
+            <h2 class="light">Skillvitas Telah Berkerja Sama Dengan <span class="yellow-color"> 50+ </span> 
+                Lebih <br />
+                Hiring Partner
+            </h2>
+
+            <div class="courses-section2">
+                <div class="wrapper2">
+                    <h1 class="light">Talent Skillvitas Telah Berkarir di:</h1>
+                </div>
+            </div>
+
+            <div class="courses-section3">
+                <div class="Partner">
+                    <img src="images/Rectangle_157.svg" alt="">
+                    <img src="images/Rectangle_159.svg" alt="">
+                    <img src="images/Rectangle_160.svg" alt="">
+                    <img src="images/Rectangle_161.svg" alt="">
+                    <img src="images/Rectangle_162.svg" alt="">
+                </div>
+            </div>
+
+            <div class="courses-section4">
+                <div class="Partner2">
+                    <img src="images/Rectangle_163.svg" alt="">
+                    <img src="images/Rectangle_164.svg" alt="">
+                </div>
+            </div>
+
+        </div>
+
+     </section>
+
+
+        <!-- end of the header section-->
+
+        <footer>
+            <div class="wrapper">
+                <div class="links-container">
+                    <div class="links">
+                    <h3>Tentang</h3>
+
+                    <ul>
+                        <li>
+                            <a href="#">Tentang Kami</a>
+                        </li>
+                    
+                        <li>
+                            <a href="#">Bantuan</a>
+                        </li>
+                    
+                        <li>
+                            <a href="#">Kontak Kami</a>
+                        </li>
+                    
+                        <li>
+                            <a href="#">Kursus</a>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="links">
+                    <h3>Lainnya</h3>
+    
+                    <ul>
+                        <li>
+                            <a href="#">Syarat & Ketentuan</a>
+                        </li>
+                        <li>
+                            <a href="#">Kebijakan Privasi</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="social">
+                    <a href="#">
+                        <img src="images/logos_whatsapp-icon.png" alt=""/>
+                        <img src="images/icon-playg.svg" alt=""/>
+                        <img src="images/skill-icons_instagram.png" alt=""/>
+                        <img src="images/skill-icons_linkedin.png" alt=""/>
+                    </a>
+                </div>
+
+                </div>
+                    <p class="copyright">@2024 PT.Skillvitas Technology Indonesia</p>
+                </div>
+            </div>
+            
+        </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap");
+:root {
+  --primary: #eeeeee;
+  --secondary: #227c70;
+  --green: #82cd47;
+  --secondary-light: rgb(34, 124, 112, 0.2);
+  --secondary-light-2: rgb(127, 183, 126, 0.1);
+  --white: #fff;
+  --black: #393e46;
+  --drak--blue--color: #02295D;
+    --yellow-color: #FBBC04;
+    --dark-color: #070917;
+
+  --shadow: 0px 2px 8px 0px var(--secondary-light);
+}
+
+* {
+  max-width: 1684px;
+  margin: 0px auto;
+  list-style-type: none;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+
+header{
+    background: linear-gradient(180deg, #0456C3 0%, #02295D 100%);
+    height: 100vh;
+    width: 100%;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  height: 80px;
+  background-color: var(--drak--blue--color);
+  padding: 0 9%;
+  box-shadow: var(--shadow);
+}
+
+.navbar-logo {
+  cursor: pointer;
+  width: 200px;
+  height: 80px;
+
+}
+
+.navbar-list {
+  width: 100%;
+  text-align: right;
+  padding-right: 2rem;
+}
+
+.navbar-list li {
+  display: inline-block;
+  margin: 0 1rem;
+}
+
+.navbar-list li a {
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--white);
+  text-decoration: none;
+}
+
+.profile-dropdown {
+  position: relative;
+  width: fit-content;
+}
+
+.profile-dropdown-btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 1.3rem;
+  font-size: 0.9rem;
+  font-weight: 500;
+  width: 175px;
+  border-radius: 50px;
+  color: var(--white);
+
+  cursor: pointer;
+  background: var(--yellow-color);
+  transition: box-shadow 0.2s ease-in, background-color 0.2s ease-in,
+  border 0.3s;
+}
+
+.profile-dropdown-btn:hover {
+  background-color: var(--secondary-light-2);
+  box-shadow: var(--shadow);
+}
+
+.profile-img {
+  position: relative;
+  width: 3.1rem;
+  height: 3.1rem;
+  border-radius: 50%;
+  background: url(img/avataricon.svg);
+  background-size: cover;
+}
+
+.profile-img i {
+  position: absolute;
+  right: 0;
+  bottom: 0.3rem;
+  font-size: 0.5rem;
+  color: var(--green);
+}
+
+.profile-dropdown-btn span {
+  margin: 0 0.4rem;
+  margin-right: 0;
+}
+
+.profile-dropdown-list {
+    position: absolute;
+    top: 63px;
+    width: 200px;
+    right: 0;
+    background-color: var(--white);
+    border-radius: 10px;
+    max-height: 0;
+    overflow: hidden;
+    box-shadow: var(--shadow);
+    transition: max-height 0.8s;
+}
+
+
+.profile-dropdown-list.active {
+  max-height: 600px;
+  width: 250px;
+}
+
+.profile-dropdown-list-item {
+  padding: 0.5rem 0rem 0.5rem;
+  transition: background-color 0.2s ease-in, padding-left 0.5s;
+}
+
+.profile-dropdown-list-item a {
+  display: contents;
+  align-items: center;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--black);
+}
+
+.profile-dropdown-list-item a i {
+  margin-right: 0.8rem;
+  font-size: 1.1rem;
+  width: 2.6rem;
+  height: 2.3rem;
+  background-color: var(--secondary);
+  color: var(--white);
+  line-height: 2.3rem;
+  text-align: center;
+  margin-right: 1rem;
+  border-radius: 50%;
+  transition: margin-right 0.3s;
+}
+
+.profile-dropdown-list-item:hover {
+  padding-left: 1.5rem;
+  background-color: var(--secondary-light);
+}
+
+
+.hero-section {
+    display: flex;
+    height: 90vh;
+    width: 100%;
+    align-items:center;
+    justify-content: space-between;
+    padding-top: 60px;
+}
+
+.hero-section img{
+  animation: animate 3s linear infinite;
+}
+@keyframes animate{
+  0%{
+    transform: translate(-11px, 0);
+  }
+  50%{
+    transform: translate(-0px, -11px);
+  }
+  100%{
+    transform: translate(-11px, 0);
+  }
+}
+
+.hero-section .left h1 {
+    font-family: "Sawarabi Gothic", sans-serif;
+    font-weight: 500px;
+    font-size: 30px;
+    line-height: 200%;
+    color:#fff;
+    margin-bottom: 0;
+}
+
+.hero-section .left p {
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 209%;
+    color:#fff;
+    margin-bottom: 30px;
+}
+
+.hero-section .left a {
+    font-family: "Poppins", sans-serif;
+    color:#fff;
+    font-size: 17px;
+}
+
+.hero-section .left{
+    width: 440px;
+    height: 300px;
+}
+
+.btn {
+    padding: 16px 32px;
+    border-radius: 24px;
+    color: #fff;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+    position: relative;
+}
+
+.btn.lihat{
+    background: var(--yellow-color);
+    padding: 20px 40px;
+    border-radius: 25px;
+}
+
+
+.btn.enrol-icon::before{
+    position: absolute;
+    top: 35%;
+    left: 150px;
+}
+
+
+
+.courses-section{
+    background: linear-gradient(#fff);
+    padding: 80px 0;
+
+}
+
+.courses-section h2 {
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+}
+
+.courses-section .course-programs{
+    display: flex;
+    gap: 0px;
+
+}
+
+.courses-section .course-programs img {
+    width: 100%;
+    border-radius: 24px;
+
+}
+
+.courses-section .course-program {
+    background-color: #FBBC04;
+    border-radius: 30px;
+    padding: 30px;
+    margin: 90px;
+}
+
+.courses-section .course-program h3{
+    font-family: "Roboto", sans-serif;
+    font-weight: 650;
+    font-size: 25px;
+    line-height: 90%;
+    color: #fff;
+    text-align: center;
+}
+
+.courses-section-program{
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 300%;
+    padding: 10px;
+}
+
+.courses-section-program img{
+    width: 80px;
+}
+
+
+.product {
+    position: relative;
+    overflow: hidden;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 350%;
+    padding: 0 5rem;
+  }
+
+  .product h2{
+    font-family: "Poppins", sans-serif;
+    font-weight: semibold;
+    font-size: 15px;
+    line-height: 220%;
+    width: 1400px;
+    text-align: right;
+
+  }
+
+  .product p img{
+    width: 80px;
+  }
+
+  .product h2 img{
+    position: absolute;
+    top: 13%;
+
+  }
+  
+  .product-category {
+    padding: 0px 100px;
+    margin-bottom: 40px;
+    text-transform: capitalize;
+  }
+  
+  .product-container {
+    padding: 0 10vw;
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+  }
+  
+  .product-container::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .product-card {
+    flex: 0 0 auto;
+    width: 250px;
+    height: 500px;
+    margin-right: 40px;
+  }
+  
+  .product-image {
+    position: relative;
+    width: 105%;
+    height: 400px;
+    overflow: hidden;
+  }
+  
+  .product-thumb {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  
+  .card-btn {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px;
+    width: 90%;
+    text-transform: capitalize;
+    border: none;
+    outline: none;
+    background: #fff;
+    border-radius: 5px;
+    transition: 0.5s;
+    cursor: pointer;
+    opacity: 0;
+  }
+  
+  .product-card:hover .card-btn {
+    opacity: 1;
+  }
+  
+  .card-btn:hover {
+    background: #02295D;
+    color: #fff;
+  }
+  
+  .pre-btn,
+  .nxt-btn {
+    border: none;
+    width: 10vw;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #fff 100%);
+    cursor: pointer;
+    z-index: 8;
+  }
+  
+  .pre-btn {
+    left: 0;
+    transform: rotate(180deg);
+  }
+  
+  .nxt-btn {
+    right: 0;
+  }
+  
+  .pre-btn img,
+  .nxt-btn img {
+    opacity: 0.2;
+  }
+  
+  .pre-btn:hover img,
+  .nxt-btn:hover img {
+    opacity: 1;
+  }
+  
+
+  
+.courses-section1 h2{
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+}
+
+.courses-section1 p{
+    color: #FBBC04;
+    text-align: center;
+}
+
+.yellow-color{
+    color: #FBBC04;
+}
+
+.courses-section2 h1{
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    font-weight: semibold;
+    font-size: 16px;
+    text-decoration: none;
+    position: relative;
+
+}
+
+.courses-section3 img {
+    width: 20%;
+    border-radius: 10px;
+    padding: 0px 40px;
+    margin: 40px 0;
+    position: relative;
+    top: 30%;
+    left: 127px;
+
+}
+
+
+
+footer{
+    background: linear-gradient(180deg, #0456C3 0%, #02295D 100%);
+    color: #fff;
+    margin-top: 100px;
+    padding: 70px 0;
+
+}
+
+.links h3{
+    font-size: 20px;
+}
+
+footer a{
+    text-decoration: none;
+    color: #fff;
+    
+}
+
+footer ul {
+    list-style: none;
+    padding-left: 0px;
+}
+
+footer ul li {
+    margin: 16px 0;
+}
+
+footer .links-container {
+    display: grid;
+    grid-template-columns: 2fr 2fr 3fr;
+}
+
+footer .social{
+    margin-left: 30px;
+}
+
+
+footer .social a{
+    margin-right: 200px;
+    position: relative; 
+    top: 230px;
+    left: 290px;
+    
+}
+
+footer .copyright{
+    margin-right: 90px;
+    position: relative; 
+    top: 40px;
+    left: 1150px;
+}
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <title>kursus</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sawarabi+Gothic&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <header>
+        <div class="wrapper">
+            <nav class="navigasi">
+                <div class="logo">SKILLVITAS</div>
+
+                <ul>
+                    <li>
+                        <a href="#">About</a>
+                    </li>
+                    <li>
+                        <a href="#">Workshop</a>
+                    </li>
+                    <li>
+                        <a href="#">kursus</a>
+                    </li>
+                    <li>
+                        <a href="#" class="btn yellow2">Daftar</a>
+                    </li>
+                    <li>
+                        <a href="login_akun.html" class="btn yellow1">Login</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+            <!-- end of the header section-->
+            <section class="courses-section">
+                <div class="wrapper">
+                    <h2 class="light">Program Pelatihan Unggulan</h2>
+
+                    <div class="course-programs">
+                        <div class="course-program">
+                            <img src="images/baganuiux.svg" alt=""/>
+                    
+                            <div class="info">
+                            <h3>UI/UX <br />
+                                Design 
+                            </h3>
+                            </div>
+                        </div>
+        
+                        <div class="course-program">
+                            <img src="images/bagantekno.svg" alt=""/>
+                    
+                            <div class="info">
+                            <h3>Teknologi & <br />
+                                Software</h3>
+                            </div>
+                        </div>
+        
+                        <div class="course-program">
+                            <img src="images/baganmedia.svg" alt=""/>
+                    
+                            <div class="info">
+                            <h3>Media & Kreatif</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+<!-- end of the header section-->
+        <section class="courses-sections">
+            <div class="wrapper">
+                <h2 class="light">Career Fit Test</h2>
+            
+                <div class="karir">
+                    <p><img src="images/bagancareer.svg" style="float: left; margin:0 70px 4px 0;" /></p> 
+                    <h2>Career fit test memiliki tujuan untuk mengukur kemampuan yang anda
+                        miliki untuk melanjutkan jenjang karir di industri sesuai bidang yang anda
+                        kuasai, serta mencari tahu perkembangan apa saja yang dibutuhkan
+                        dalam diri anda untuk memulai karir </h2>
+                </div>
+
+                <div class="bidang1">
+                    <img src="images/btn-biru.svg" width="600" height="120" alt=""/>
+                </div>
+
+                <div class="btn-mulai"></div>
+                    <a href="" class="btn1 yellow3">Mulai Test</a>
+                </div> 
+
+                <div class="select-menu">
+                    <div class="select-btn">
+                        <span class="sBtn-text">Pilih Bidang Test</span>
+                        <i class="bx bx-chevron-down"></i>
+                    </div>
+
+                    <ul class="options">
+                        <li class="option">
+                            <i class="bx bxs-hot"></i>
+                            <span class="option-text">Teknologi</span>
+                        </li>
+
+                        <li class="option">
+                            <i class="bx bxs-user-voice" style="color: #E1306C;"></i>
+                            <span class="option-text">Personality test</span>
+                        </li>
+                    </ul>
+               </div> 
+            </div>
+        </section>           
+
+        <!-- end of the header section-->   
+        <section class="section-card">
+                <div class="card card-1">
+                    <img src="images/skill1.svg" alt="kursus" class="card__img">
+                    <div class="card__details">
+                        <ul>
+                            <li>Teknologi & Software, UI/UX Designer, +10 Kategori lainnya</li>
+                            <li>Pembelajaran mandiri</li>
+                            <li>Akses kelas pembelajaran seumur hidup</li>
+                            <li>Dapat diakses dan belajar kapanpun dimana pun</li>
+                        </ul>
+                    </div>
+                    <a href="#popup" class="btn2">Lihat Kelas</a>
+                </div>
+            
+                <div class="card card-2">
+                    <img src="images/skill2.svg" alt="career" class="card__img">
+                    <div class="card__details">
+                        <ul>
+                            <li>Teknologi & Software, UI/UX Designer, +10 Kategori lainnya</li>
+                            <li>Rangkaian kursus dengan terkurasi dan komprehensif</li>
+                            <li>Langganan mulai dari 1 bulan</li>
+                            <li>Dapat diakses dan belajar kapanpun dimana pun</li>
+                        </ul>
+                    </div>
+                    <a href="#popup" class="btn2">Lihat Kelas</a>
+                </div>
+            
+                <div class="card card-3">
+                    <img src="images/skill3.svg" alt="live" class="card__img">
+                    <div class="card__details">
+                        <ul>
+                            <li>Frontend, Backend, UI/UX Desain, Data Analytics</li>
+                            <li>Kelas intensif dengan 20 orang per kelas</li>
+                            <li>40 sesi interaktif live dengan mentoring</li>
+                            <li>Project-based portofolio</li>
+                            <li>Job Connect</li>
+                            <li>Dapatkan Sertifikat</li>
+                        </ul>
+                    </div>
+                    <a href="#popup" class="btn2">Lihat Kelas</a>
+                </div>
+            </div>
+           
+        </section>
+        
+        <div class="popup" id="popup">
+            <div class="popup__content">
+                <div class="popup__img">
+                    <img src="images/skill1.svg" alt="kursus">
+                    <img src="images/skill2.svg" alt="career">
+                    <img src="images/skill3.svg" alt="live">
+                    <a href="#" class="popup__close">&times;</a>
+                </div>
+                <div class="popup__header">
+                    <h1>Start Kelas!</h1>
+                    <h2>Mari Bergabung Bersama Skillvitas</h2>
+                </div>
+                <div class="popup__text">
+                    <p>Skillvitas sangat cocok bagi anda untuk mengembangkan skill kreativitas di berbagai bidang apapun,
+                        mulailah menambah skill dengan mengikuti program kami di SKillVitas.
+                    </p>
+                </div>
+                <a href="#" class="popup_btn">Berlangganan</a>
+            </div>
+        
+        </div>
+
+        <!-- end of the header section-->
+
+        <footer>
+             <div class="wrapper">
+        <div class="links-container">
+            <div class="links">
+            <h3>Tentang</h3>
+
+            <ul>
+                <li>
+                    <a href="#">Tentang Kami</a>
+                </li>
+            
+                <li>
+                    <a href="#">Bantuan</a>
+                </li>
+            
+                <li>
+                    <a href="#">Kontak Kami</a>
+                </li>
+            
+                <li>
+                    <a href="#">Kursus</a>
+                </li>
+            </ul>
+        </div>
+        
+        <div class="links">
+            <h3>Lainnya</h3>
+
+            <ul>
+                <li>
+                    <a href="#">Syarat & Ketentuan</a>
+                </li>
+                <li>
+                    <a href="#">Kebijakan Privasi</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="social">
+            <a href="#">
+                <img src="images/logos_whatsapp-icon.png" alt=""/>
+                <img src="images/icon-playg.svg" alt=""/>
+                <img src="images/skill-icons_instagram.png" alt=""/>
+                <img src="images/skill-icons_linkedin.png" alt=""/>
+            </a>
+        </div>
+
+        </div>
+            <p class="copyright">@2024 PT.Skillvitas Technology Indonesia</p>
+        </div>
+    </div>
+    
+
+</footer>
+</body>
+    <script src="script.js"></script>
+</html>
+
+
+
+
+
+
+
+<?php
+session_start();
+include_once('connection.php');
+
+// if(isset($_SESSION['name']) && isset($_SESSION['username'] )){
+
+// }
+$_SESSION['name'];
+$_SESSION['username'];
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style1.css" />
+    <title>Profile Dropdown</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <img src="images/Logo-1.png" class="navbar-logo" alt="logo" />
+      <ul class="navbar-list">
+        <li><a href="#">About</a></li>
+        <li><a href="#">Workshop</a></li>
+        <li><a href="kursus.php">Kursus</a></li>
+      </ul>
+
+      <div class="profile-dropdown">
+        <div onclick="toggle()" class="profile-dropdown-btn">
+          <div class="profile-img">
+            <i class="fa-solid fa-circle"></i>
+          </div>
+
+          <span><?=$_SESSION['name'];?></span>
+            <i class="fa-solid fa-angle-down"></i>
+        </div>
+
+        <ul class="profile-dropdown-list">
+          <li class="profile-dropdown-list-item">
+            <a href="#">
+              <i class="fa-regular fa-user"></i>
+              Edit Profile
+            </a>
+          </li>
+
+          <li class="profile-dropdown-list-item">
+            <a href="login.php">
+              <i class="fa-solid fa-arrow-right-from-bracket"></i>
+              Log out
+            </a>
+          </li>
+
+          <li class="profile-dropdown-list-item">
+            <a href="#">
+              <i class="fa-regular fa-circle-question"></i>
+              Help & Support
+            </a>
+          </li>
+
+        </ul>
+    </nav>
+            <!-- end of the header section-->
+            <section class="courses-section">
+                <div class="wrapper">
+                    <h2 class="light">Program Pelatihan Unggulan</h2>
+
+                    <div class="course-programs">
+                        <div class="course-program">
+                            <img src="images/baganuiux.svg" alt=""/>
+                    
+                            <div class="info">
+                            <h3>UI/UX <br />
+                                Design 
+                            </h3>
+                            </div>
+                        </div>
+        
+                        <div class="course-program">
+                            <img src="images/bagantekno.svg" alt=""/>
+                    
+                            <div class="info">
+                            <h3>Teknologi & <br />
+                                Software</h3>
+                            </div>
+                        </div>
+        
+                        <div class="course-program">
+                            <img src="images/baganmedia.svg" alt=""/>
+                    
+                            <div class="info">
+                            <h3>Media & Kreatif</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+<!-- end of the header section-->
+        <section class="courses-sections">
+            <div class="wrapper">
+                <h2 class="light">Career Fit Test</h2>
+            
+                <div class="karir">
+                    <p><img src="images/bagancareer.svg" style="float: left; margin:0 70px 4px 0;" /></p> 
+                    <h2>Career fit test memiliki tujuan untuk mengukur kemampuan yang anda
+                        miliki untuk melanjutkan jenjang karir di industri sesuai bidang yang anda
+                        kuasai, serta mencari tahu perkembangan apa saja yang dibutuhkan
+                        dalam diri anda untuk memulai karir </h2>
+                </div>
+
+                <div class="bidang1">
+                    <img src="images/btn-biru.svg" width="600" height="120" alt=""/>
+                </div>
+
+                <div class="btn-mulai"></div>
+                    <a href="" class="btn1 yellow3">Mulai Test</a>
+                </div> 
+
+                <div class="select-menu">
+                    <div class="select-btn">
+                        <span class="sBtn-text">Pilih Bidang Test</span>
+                        <i class="bx bx-chevron-down"></i>
+                    </div>
+
+                    <ul class="options">
+                        <li class="option">
+                            <i class="bx bxs-hot"></i>
+                            <span class="option-text">Teknologi</span>
+                        </li>
+
+                        <li class="option">
+                            <i class="bx bxs-user-voice" style="color: #E1306C;"></i>
+                            <span class="option-text">Personality test</span>
+                        </li>
+                    </ul>
+               </div> 
+            </div>
+        </section>           
+
+        <!-- end of the header section-->   
+        <section class="section-card">
+                <div class="card card-1">
+                    <img src="images/skill1.svg" alt="kursus" class="card__img">
+                    <div class="card__details">
+                        <ul>
+                            <li>Teknologi & Software, UI/UX Designer, +10 Kategori lainnya</li>
+                            <li>Pembelajaran mandiri</li>
+                            <li>Akses kelas pembelajaran seumur hidup</li>
+                            <li>Dapat diakses dan belajar kapanpun dimana pun</li>
+                        </ul>
+                    </div>
+                    <a href="#popup" class="btn2">Lihat Kelas</a>
+                </div>
+            
+                <div class="card card-2">
+                    <img src="images/skill2.svg" alt="career" class="card__img">
+                    <div class="card__details">
+                        <ul>
+                            <li>Teknologi & Software, UI/UX Designer, +10 Kategori lainnya</li>
+                            <li>Rangkaian kursus dengan terkurasi dan komprehensif</li>
+                            <li>Langganan mulai dari 1 bulan</li>
+                            <li>Dapat diakses dan belajar kapanpun dimana pun</li>
+                        </ul>
+                    </div>
+                    <a href="#popup" class="btn2">Lihat Kelas</a>
+                </div>
+            
+                <div class="card card-3">
+                    <img src="images/skill3.svg" alt="live" class="card__img">
+                    <div class="card__details">
+                        <ul>
+                            <li>Frontend, Backend, UI/UX Desain, Data Analytics</li>
+                            <li>Kelas intensif dengan 20 orang per kelas</li>
+                            <li>40 sesi interaktif live dengan mentoring</li>
+                            <li>Project-based portofolio</li>
+                            <li>Job Connect</li>
+                            <li>Dapatkan Sertifikat</li>
+                        </ul>
+                    </div>
+                    <a href="#popup" class="btn2">Lihat Kelas</a>
+                </div>
+            </div>
+           
+        </section>
+        
+        <div class="popup" id="popup">
+            <div class="popup__content">
+                <div class="popup__img">
+                    <img src="images/skill1.svg" alt="kursus">
+                    <img src="images/skill2.svg" alt="career">
+                    <img src="images/skill3.svg" alt="live">
+                    <a href="#" class="popup__close">&times;</a>
+                </div>
+                <div class="popup__header">
+                    <h1>Start Kelas!</h1>
+                    <h2>Mari Bergabung Bersama Skillvitas</h2>
+                </div>
+                <div class="popup__text">
+                    <p>Skillvitas sangat cocok bagi anda untuk mengembangkan skill kreativitas di berbagai bidang apapun,
+                        mulailah menambah skill dengan mengikuti program kami di SKillVitas.
+                    </p>
+                </div>
+                <a href="#" class="popup_btn">Berlangganan</a>
+            </div>
+        
+        </div>
+
+        <!-- end of the header section-->
+
+        <footer>
+             <div class="wrapper">
+        <div class="links-container">
+            <div class="links">
+            <h3>Tentang</h3>
+
+            <ul>
+                <li>
+                    <a href="#">Tentang Kami</a>
+                </li>
+            
+                <li>
+                    <a href="#">Bantuan</a>
+                </li>
+            
+                <li>
+                    <a href="#">Kontak Kami</a>
+                </li>
+            
+                <li>
+                    <a href="#">Kursus</a>
+                </li>
+            </ul>
+        </div>
+        
+        <div class="links">
+            <h3>Lainnya</h3>
+
+            <ul>
+                <li>
+                    <a href="#">Syarat & Ketentuan</a>
+                </li>
+                <li>
+                    <a href="#">Kebijakan Privasi</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="social">
+            <a href="#">
+                <img src="images/logos_whatsapp-icon.png" alt=""/>
+                <img src="images/icon-playg.svg" alt=""/>
+                <img src="images/skill-icons_instagram.png" alt=""/>
+                <img src="images/skill-icons_linkedin.png" alt=""/>
+            </a>
+        </div>
+
+        </div>
+            <p class="copyright">@2024 PT.Skillvitas Technology Indonesia</p>
+        </div>
+    </div>
+    
+
+</footer>
+</body>
+    <script src="mainhomeskill.js"></script>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+:root {
+    --drak--blue--color: #02295D;
+    --yellow-color: #FBBC04;
+    --dark-color: #070917;
+    
+}
+
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    background-color: #fff;
+ 
+}
+
+
+.navbar {
+  display: flex;
+  align-items: center;
+  height: 80px;
+  background-color: var(--drak--blue--color);
+  padding: 0 9%;
+  box-shadow: var(--shadow);
+}
+
+.navbar-logo {
+  cursor: pointer;
+  width: 200px;
+  height: 80px;
+
+}
+
+.navbar-list {
+  width: 100%;
+  text-align: right;
+  padding-right: 2rem;
+}
+
+.navbar-list li {
+  display: inline-block;
+  margin: 0 1rem;
+}
+
+.navbar-list li a {
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--white);
+  text-decoration: none;
+}
+
+.profile-dropdown {
+  position: relative;
+  width: fit-content;
+}
+
+.profile-dropdown-btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 1.3rem;
+  font-size: 0.9rem;
+  font-weight: 500;
+  width: 175px;
+  border-radius: 50px;
+  color: var(--white);
+
+  cursor: pointer;
+  background: var(--yellow-color);
+  transition: box-shadow 0.2s ease-in, background-color 0.2s ease-in,
+  border 0.3s;
+}
+
+.profile-dropdown-btn:hover {
+  background-color: var(--secondary-light-2);
+  box-shadow: var(--shadow);
+}
+
+.profile-img {
+  position: relative;
+  width: 3.1rem;
+  height: 3.1rem;
+  border-radius: 50%;
+  background: url(img/avataricon.svg);
+  background-size: cover;
+}
+
+.profile-img i {
+  position: absolute;
+  right: 0;
+  bottom: 0.3rem;
+  font-size: 0.5rem;
+  color: var(--green);
+}
+
+.profile-dropdown-btn span {
+  margin: 0 0.4rem;
+  margin-right: 0;
+}
+
+.profile-dropdown-list {
+    position: absolute;
+    top: 63px;
+    width: 200px;
+    right: 0;
+    background-color: var(--white);
+    border-radius: 10px;
+    max-height: 0;
+    overflow: hidden;
+    box-shadow: var(--shadow);
+    transition: max-height 0.8s;
+}
+
+
+.profile-dropdown-list.active {
+  max-height: 600px;
+  width: 250px;
+}
+
+.profile-dropdown-list-item {
+  padding: 0.5rem 0rem 0.5rem;
+  transition: background-color 0.2s ease-in, padding-left 0.5s;
+}
+
+.profile-dropdown-list-item a {
+  display: contents;
+  align-items: center;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--black);
+}
+
+.profile-dropdown-list-item a i {
+  margin-right: 0.8rem;
+  font-size: 1.1rem;
+  width: 2.6rem;
+  height: 2.3rem;
+  background-color: var(--secondary);
+  color: var(--white);
+  line-height: 2.3rem;
+  text-align: center;
+  margin-right: 1rem;
+  border-radius: 50%;
+  transition: margin-right 0.3s;
+}
+
+.profile-dropdown-list-item:hover {
+  padding-left: 1.5rem;
+  background-color: var(--secondary-light);
+}
+
+.hero-section {
+    display: flex;
+    height: 110vh;
+    width: 104%;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 60px;
+}
+
+
+.hero-section .left p {
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 200%;
+    color:#fff;
+    margin-bottom: 30px;
+}
+
+.hero-section .left{
+    width: 457px;
+}
+
+.courses-section h2 {
+    font-family: "Poppins", sans-serif;
+    padding: 50px;
+    width: 100%;
+    height: 10px;
+}
+
+.courses-section .course-programs{
+    display: flex;
+    gap: 70px;
+
+}
+
+.courses-section .course-programs img {
+    width: 100%;
+    border-radius: 24px;
+
+}
+
+.courses-section .course-program {
+    border-radius: 30px;
+    padding: 0px 40px;
+    margin: 10px 0;
+}
+
+.courses-section .course-program h3{
+    font-family: "Roboto", sans-serif;
+    font-weight: 550;
+    font-size: 20px;
+    line-height: 110%;
+    color:black;
+    text-align: center;
+}
+
+.courses-section .deskripsi p{
+    font-family: "Poppins", sans-serif;
+    padding: 50px;
+    width: 100%;
+    height: 0px;
+}
+
+.karir {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 150%;
+    padding: 0px 0px 0px 30px;
+    
+  }
+
+  .courses-sections h2 {
+    font-family: "Poppins", sans-serif;
+    padding: 50px;
+    width: 80%;
+    height: 100px;
+}
+
+.karir p img{
+    width: 300px;
+  }
+
+.karir h2{
+    font-family: "Poppins", sans-serif;
+    font-weight: 550;
+    font-size: 15px;
+    line-height: 150%;
+    position: relative;
+    padding: 50px;
+    text-align: justify;
+}
+
+.bidang1 {
+  padding: 20px;
+}
+
+.select-menu{
+  width: 380px;
+  margin: 20px auto;
+  position: relative;
+  margin-top: -110px;
+  margin-left: 410px;
+}
+
+.select-menu .select-btn{
+  display: flex;
+  height: 54px;
+  background: #fff;
+  border: 2px solid var(--yellow-color);
+  padding: 15px 42px;
+  width: 110%;
+  font-size: 18px;
+  font-weight: 400;
+  border-radius: 80px;
+  cursor: pointer;
+  justify-content: space-between;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.select-menu .options{
+  position: relative;
+  padding: 20px;
+  margin-top: 10px;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+  display: none;
+}
+
+.options .option{
+  display: flex;
+  height: 55px;
+  cursor: pointer;
+  padding: 0 16px;
+  border-radius: 8px;
+  align-items: center;
+  background: #fff;
+}
+
+.options .option:hover{
+  background: #F2F2F2;
+}
+
+.option i{
+  font-size: 25px;
+  transition: 0.3s;
+}
+
+.option .option-text{
+  font-size: 18px;
+  color: #333;
+}
+
+.select-menu.active .options{
+  display: block;
+}
+
+.select-menu.active .select-btn i{
+  transform: rotate(-180deg);
+}
+
+.btn1 {
+  border-radius: 20px;
+  color: #fff;
+  display: inline-block;
+  font-weight: medium;
+  font-size: 16px;
+  text-decoration: none;
+  position: absolute;
+  margin: -40px auto;
+  margin-left: 450px;
+  margin-top: -100px;
+}
+.btn1.yellow3 {
+  background: var(--yellow-color);
+  padding: 10px 20px;
+
+}
+
+
+.section-judul {
+  position: relative;
+  overflow: hidden;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 30%;
+  padding: 0px 0px 5px;
+}
+
+.section-judul h2{
+  font-family: "Poppins", sans-serif;
+  font-weight: semibold;
+  font-size: 15px;
+  line-height: 90%;
+  text-align: center;
+
+}
+
+.section-card{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 20px;
+  width: 60%;
+  margin: 110px auto;
+  background-color: #FBBC04;
+}
+
+.card{
+  background-color: #fff;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, .2);
+}
+
+.card__img{
+  width: 100%;
+  display: block;
+}
+
+.card__details{
+  padding: 10px 0;
+}
+
+.card__details ul{
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 80%;
+  padding: 20px 0;
+}
+
+.card__details ul li{
+  width: 100%;
+  text-align: center;
+  font-size: 14px;
+  padding: 12px 0;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+}
+
+.card__details ul li:not(:last-child){
+  border-bottom: 1px solid #fff;
+}
+
+.btn2{
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 9px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  color: #fff;
+  font-weight: 500;
+
+  display: inline-block;
+  padding: 14px 28px;
+  border-radius: 100px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  margin-bottom: 30px;
+}
+
+.card-1 .btn2{
+  background-color: #cd051d;
+}
+
+.card-2 .btn2{
+  background-color: #d38000;
+}
+
+.card-3 .btn2{
+  background-color: #79a424;
+}
+
+.popup{
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, .8);
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  opacity: 0;
+  visibility: hidden;
+  transition: all .3s;
+}
+
+.popup__content {
+  width: 50%;
+  background-color: #fff;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, .2);
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(.25);
+  opacity: 0;
+
+  transition: all .5s .1s;
+}
+
+.popup__img{
+  display: flex;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.popup__img img{
+  display: block;
+  width: 33.3333%;
+}
+
+.popup__header{
+  text-align: center;
+  text-transform: uppercase;
+  color: #555;
+  margin-bottom: 36px;
+}
+
+.popup__header h1{
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.popup__header h2{
+  font-size: 20px;
+}
+
+.popup__text{
+  padding: 0 36px;
+  line-height: 1.4;
+}
+
+.popup__text p:not(:last-child){
+  margin-bottom: 16px;
+}
+
+.popup_btn{
+  background-color: #02295D;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 13px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  color: #fff;
+  font-weight: 500;
+
+  display: inline-block;
+  padding: 14px 28px;
+  border-radius: 100px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  margin-bottom: 30px;
+
+}
+
+#popup:target{
+  opacity: 1;
+  visibility: visible;
+}
+
+#popup:target .popup__content{
+  opacity: 1;
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.popup__close:link,
+.popup__close:visited{
+  position: absolute;
+  top: 12px;
+  right: 20px;
+  text-decoration: none;
+  color: #000;
+  font-size: 30px;
+  display: inline-block;
+  line-height: 1;
+  transition: all .3s;
+}
+
+.popup__close:hover,
+.popup__close:active{
+  color: #555;
+}
+
+
+
+
+footer{
+  background: linear-gradient(180deg, #0456C3 0%, #02295D 100%);
+  color: #fff;
+  margin-top: 100px;
+  padding: 80px 0;
+
+}
+
+footer h3{
+  padding-left: 150px;
+}
+
+footer a{
+  text-decoration: none;
+  color: #fff;
+  
+}
+
+footer ul {
+  list-style: none;
+  padding-left: 170px;
+}
+
+footer ul li {
+  margin: 16px 0;
+}
+
+footer .links-container {
+  display: grid;
+  grid-template-columns: 2fr 2fr 3fr;
+}
+
+footer .social{
+  margin-left: 30px;
+}
+
+footer .social a{
+  margin-right: 200px;
+  position: relative; 
+  top: 250px;
+  left: 250px;
+  
+}
+
+footer .copyright{
+  margin-top: 50px;
+  padding-left: 150px;
+}
+
+

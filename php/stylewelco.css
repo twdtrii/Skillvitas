@@ -1,0 +1,463 @@
+:root {
+    --drak--blue--color: #02295D;
+    --yellow-color: #FBBC04;
+    --dark-color: #070917;
+    
+}
+
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+ 
+}
+
+.wrapper{
+    max-width: 1134px;
+    margin: 0 auto;
+}
+
+.btn {
+    padding: 16px 32px;
+    border-radius: 24px;
+    color: #fff;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+    position: relative;
+}
+
+.btn.yellow1{
+    background: var(--yellow-color);
+    padding: 15px 40px;
+}
+
+.btn.yellow2{
+  padding: 15px 40px;
+  border: 2px solid var(--yellow-color);
+  border-radius: 30px;
+  color: var(#fff);
+  font-weight: 500;
+}
+
+.btn.lihat{
+    background: var(--yellow-color);
+    padding: 15px 40px;
+    border-radius: 30px;
+}
+
+.btn.enrol-icon::before{
+    content: url("images/enrol-icon.svg");
+    position: absolute;
+    top: 27%;
+    left: 136px;
+}
+
+
+header{
+    background: linear-gradient(180deg, #0456C3 0%, #02295D 100%);
+    height: 100vh;
+    width: 100%;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 1134px;
+    top: 36px;
+    z-index: 100;
+}
+
+nav .scrolled{
+    background: var(--dark-color);
+    box-shadow: 0 16px 14px -8px rgba(0, 0, 0, 0.3);
+    border-radius: 0 0 8px 8px;
+}
+
+nav .logo {
+    font-family: "TT Chocolates", sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+    color: #fff;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    gap:35px;
+    list-style: none;
+}
+
+nav ul li a {
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero-section {
+    display: flex;
+    height: 110vh;
+    width: 104%;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 60px;
+}
+
+.hero-section img{
+  animation: animate 3s linear infinite;
+}
+@keyframes animate{
+  0%{
+    transform: translate(-11px, 0);
+  }
+  50%{
+    transform: translate(-0px, -11px);
+  }
+  100%{
+    transform: translate(-11px, 0);
+  }
+}
+
+.hero-section .left h1 {
+    font-family: "Sawarabi Gothic", sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 200%;
+    color:#fff;
+    margin-bottom: 0;
+}
+
+.hero-section .left p {
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 200%;
+    color:#fff;
+    margin-bottom: 30px;
+}
+
+.hero-section .left{
+    width: 457px;
+}
+
+.courses-section{
+    background: linear-gradient(#fff);
+    padding: 70px 0;
+
+}
+
+.courses-section h2 {
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+}
+
+.courses-section .course-programs{
+    display: flex;
+    gap: 70px;
+
+}
+
+.courses-section .course-programs img {
+    width: 100%;
+    border-radius: 24px;
+
+}
+
+.courses-section .course-program {
+    background-color: #FBBC04;
+    border-radius: 30px;
+    padding: 0px 30px;
+    margin: 30px 0;
+}
+
+.courses-section .course-program h3{
+    font-family: "Roboto", sans-serif;
+    font-weight: 650;
+    font-size: 25px;
+    line-height: 90%;
+    color: #fff;
+    text-align: center;
+}
+
+.courses-section-program{
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 300%;
+    padding: 10px;
+}
+
+.courses-section-program img{
+    width: 80px;
+}
+
+
+.product {
+    position: relative;
+    overflow: hidden;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 350%;
+    padding: 0px 0px 5px;
+  }
+
+  .product h2{
+    font-family: "Poppins", sans-serif;
+    font-weight: semibold;
+    font-size: 15px;
+    line-height: 90%;
+    text-align: right;
+
+  }
+
+  .product p img{
+    width: 80px;
+  }
+
+  .product h2 img{
+    position: absolute;
+    top: 17.5%;
+
+  }
+  
+  .product-category {
+    padding: 0px 100px;
+    margin-bottom: 40px;
+    text-transform: capitalize;
+  }
+  
+  .product-container {
+    padding: 0 10vw;
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+  }
+  
+  .product-container::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .product-card {
+    flex: 0 0 auto;
+    width: 250px;
+    height: 500px;
+    margin-right: 40px;
+  }
+  
+  .product-image {
+    position: relative;
+    width: 105%;
+    height: 400px;
+    overflow: hidden;
+  }
+  
+  .product-thumb {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  
+  .card-btn {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px;
+    width: 90%;
+    text-transform: capitalize;
+    border: none;
+    outline: none;
+    background: #fff;
+    border-radius: 5px;
+    transition: 0.5s;
+    cursor: pointer;
+    opacity: 0;
+  }
+  
+  .product-card:hover .card-btn {
+    opacity: 1;
+  }
+  
+  .card-btn:hover {
+    background: #02295D;
+    color: #fff;
+  }
+  
+  .pre-btn,
+  .nxt-btn {
+    border: none;
+    width: 10vw;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #fff 100%);
+    cursor: pointer;
+    z-index: 8;
+  }
+  
+  .pre-btn {
+    left: 0;
+    transform: rotate(180deg);
+  }
+  
+  .nxt-btn {
+    right: 0;
+  }
+  
+  .pre-btn img,
+  .nxt-btn img {
+    opacity: 0.2;
+  }
+  
+  .pre-btn:hover img,
+  .nxt-btn:hover img {
+    opacity: 1;
+  }
+  
+
+  .collection-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+  }
+  
+  .collection {
+    position: relative;
+  }
+  
+  .collection img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .collection p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
+    text-transform: capitalize;
+  }
+  
+  .collection:nth-child(3) {
+    grid-column: span 2;
+    margin-bottom: 10px;
+  }
+  
+
+
+.courses-section-program .program-pilihan img{
+    width: 22%;
+    padding: 0px 10px;
+    margin: 20px 0;
+}
+
+.courses-section1 h2{
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+}
+
+.courses-section1 p{
+    color: #FBBC04;
+    text-align: center;
+}
+
+.yellow-color{
+    color: #FBBC04;
+}
+
+.courses-section2 h1{
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    font-weight: semibold;
+    font-size: 16px;
+    text-decoration: none;
+    position: relative;
+
+}
+
+.courses-section3 img {
+    width: 15%;
+    border-radius: 10px;
+    padding: 0px 30px;
+    margin: 30px 0;
+    position: relative;
+    top: 30%;
+    left: 127px;
+
+}
+
+.courses-section4 img {
+    width: 15%;
+    border-radius: 10px;
+    padding: 0px 30px;
+    margin: 30px 0;
+    position: relative;
+    top: 30%;
+    left: 500px;
+
+}
+
+footer{
+    background: linear-gradient(180deg, #0456C3 0%, #02295D 100%);
+    color: #fff;
+    margin-top: 100px;
+    padding: 70px 0;
+
+}
+
+footer a{
+    text-decoration: none;
+    color: #fff;
+    
+}
+
+footer ul {
+    list-style: none;
+    padding-left: 20px;
+}
+
+footer ul li {
+    margin: 16px 0;
+}
+
+footer .links-container {
+    display: grid;
+    grid-template-columns: 2fr 2fr 3fr;
+}
+
+footer .social{
+    margin-left: 30px;
+}
+
+footer .social a{
+    margin-right: 200px;
+    position: relative; 
+    top: 250px;
+    left: 250px;
+    
+}
+
+footer .copyright{
+    margin-top: 60px;
+}
+

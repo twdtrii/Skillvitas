@@ -1,0 +1,557 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap");
+:root {
+  --primary: #eeeeee;
+  --secondary: #227c70;
+  --green: #82cd47;
+  --secondary-light: rgb(34, 124, 112, 0.2);
+  --secondary-light-2: rgb(127, 183, 126, 0.1);
+  --white: #fff;
+  --black: #393e46;
+  --drak--blue--color: #02295D;
+    --yellow-color: #FBBC04;
+    --dark-color: #070917;
+
+  --shadow: 0px 2px 8px 0px var(--secondary-light);
+}
+
+* {
+  list-style-type: none;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  margin: 0px auto;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+
+
+.navbar {
+  display: flex;
+  align-items: center;
+  height: 80px;
+  background-color: var(--drak--blue--color);
+  padding: 0 9%;
+  box-shadow: var(--shadow);
+}
+
+.navbar-logo {
+  cursor: pointer;
+  width: 200px;
+  height: 80px;
+
+}
+
+.navbar-list {
+  width: 100%;
+  text-align: right;
+  padding-right: 2rem;
+}
+
+.navbar-list li {
+  display: inline-block;
+  margin: 0 1rem;
+}
+
+.navbar-list li a {
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--white);
+  text-decoration: none;
+}
+
+.profile-dropdown {
+  position: relative;
+  width: fit-content;
+}
+
+.profile-dropdown-btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 1.3rem;
+  font-size: 0.9rem;
+  font-weight: 500;
+  width: 170px;
+  border-radius: 50px;
+  color: var(--white);
+
+  cursor: pointer;
+  background: var(--yellow-color);
+  transition: box-shadow 0.2s ease-in, background-color 0.2s ease-in,
+  border 0.3s;
+}
+
+.profile-dropdown-btn:hover {
+  background-color: var(--secondary-light-2);
+  box-shadow: var(--shadow);
+}
+
+.profile-img {
+  position: relative;
+  width: 3.1rem;
+  height: 3.1rem;
+  border-radius: 50%;
+  background: url(img/avataricon.svg);
+  background-size: cover;
+}
+
+.profile-img i {
+  position: absolute;
+  right: 0;
+  bottom: 0.3rem;
+  font-size: 0.10rem;
+  color: var(--green);
+}
+
+.profile-dropdown-btn span {
+  margin: 0 0.4rem;
+  margin-right: 0;
+}
+
+.profile-dropdown-list {
+    position: absolute;
+    top: 63px;
+    width: 200px;
+    right: 0;
+    background-color: var(--white);
+    border-radius: 10px;
+    max-height: 0;
+    overflow: hidden;
+    box-shadow: var(--shadow);
+    transition: max-height 0.8s;
+}
+
+
+.profile-dropdown-list.active {
+  max-height: 600px;
+  width: 250px;
+}
+
+.profile-dropdown-list-item {
+  padding: 0.5rem 0rem 0.5rem;
+  transition: background-color 0.2s ease-in, padding-left 0.5s;
+}
+
+.profile-dropdown-list-item a {
+  display: contents;
+  align-items: center;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--black);
+}
+
+.profile-dropdown-list-item a i {
+  margin-right: 0.8rem;
+  font-size: 1.1rem;
+  width: 2.6rem;
+  height: 2.3rem;
+  background-color: var(--secondary);
+  color: var(--white);
+  line-height: 2.3rem;
+  text-align: center;
+  margin-right: 1rem;
+  border-radius: 50%;
+  transition: margin-right 0.3s;
+}
+
+.profile-dropdown-list-item:hover {
+  padding-left: 1.5rem;
+  background-color: var(--secondary-light);
+}
+
+
+header{
+  background: linear-gradient(180deg, #0456C3 0%, #02295D 100%);
+  height: 100vh;
+  width: 100%;
+}
+
+.hero-section {
+  display: flex;
+  height: 90vh;
+  width: 100%;
+  align-items:center;
+  justify-content: space-between;
+  padding-top: 60px;
+}
+
+.hero-section img{
+animation: animate 3s linear infinite;
+}
+@keyframes animate{
+0%{
+  transform: translate(-11px, 0);
+}
+50%{
+  transform: translate(-0px, -11px);
+}
+100%{
+  transform: translate(-11px, 0);
+}
+}
+
+.hero-section .left h1 {
+  font-family: "Sawarabi Gothic", sans-serif;
+  font-weight: 500px;
+  font-size: 30px;
+  line-height: 200%;
+  color:#fff;
+  margin-bottom: 0;
+  position: relative; 
+  top: -30px;
+  left: 180px;
+}
+
+.hero-section .left p {
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 209%;
+  color:#fff;
+  margin-bottom: 30px;
+  position: relative; 
+  top: -25px;
+  left: 180px;
+}
+
+.hero-section .left a {
+  font-family: "Poppins", sans-serif;
+  color:#fff;
+  font-size: 17px;
+}
+
+.hero-section .left{
+  width: 440px;
+  height: 300px;
+}
+
+.btn {
+  padding: 16px 32px;
+  border-radius: 24px;
+  color: #fff;
+  display: inline-block;
+  font-weight: bold;
+  font-size: 16px;
+  text-decoration: none;
+  position: relative;
+  top: -25px;
+  left: 180px;
+  
+}
+
+.btn.lihat{
+  background: var(--yellow-color);
+  padding: 20px 40px;
+  border-radius: 25px;
+}
+
+
+.btn.enrol-icon::before{
+  position: absolute;
+  top: 35%;
+  left: 150px;
+}
+
+
+
+.btn {
+  padding: 16px 32px;
+  border-radius: 24px;
+  color: #fff;
+  display: inline-block;
+  font-weight: bold;
+  font-size: 16px;
+  text-decoration: none;
+  position: relative;
+}
+
+.btn.yellow1{
+  background: var(--yellow-color);
+  padding: 15px 40px;
+}
+
+.btn.yellow2{
+padding: 15px 40px;
+border: 2px solid var(--yellow-color);
+border-radius: 30px;
+color: var(#fff);
+font-weight: 500;
+}
+
+
+
+.courses-section{
+  background: linear-gradient(#fff);
+  padding: 80px 0;
+
+}
+
+.courses-section h2 {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+
+.courses-section .course-programs{
+  display: flex;
+  gap: 0px;
+
+}
+
+.courses-section .course-programs img {
+  width: 100%;
+  border-radius: 24px;
+
+}
+
+.courses-section .course-program {
+  background-color: #FBBC04;
+  border-radius: 30px;
+  padding: 30px;
+  margin: 90px;
+}
+
+.courses-section .course-program h3{
+  font-family: "Roboto", sans-serif;
+  font-weight: 650;
+  font-size: 25px;
+  line-height: 90%;
+  color: #fff;
+  text-align: center;
+}
+
+.courses-section-program{
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 300%;
+  padding: 10px;
+}
+
+.courses-section-program img{
+  width: 80px;
+}
+
+
+
+.product {
+  position: relative;
+  overflow: hidden;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 350%;
+  padding: 0 7rem;
+}
+
+.product h2{
+  font-family: "Poppins", sans-serif;
+  font-weight: semibold;
+  font-size: 15px;
+  line-height: 220%;
+  width: 1340px;
+  text-align: right;
+
+}
+
+.product p img{
+  width: 80px;
+}
+
+.product h2 img{
+  position: absolute;
+  top: 18.5%;
+
+}
+
+.product-category {
+  padding: 0px 100px;
+  margin-bottom: 40px;
+  text-transform: capitalize;
+}
+
+.product-container {
+  padding: 0 10vw;
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+}
+
+.product-container::-webkit-scrollbar {
+  display: none;
+}
+
+.product-card {
+  flex: 0 0 auto;
+  width: 250px;
+  height: 500px;
+  margin-right: 40px;
+}
+
+.product-image {
+  position: relative;
+  width: 105%;
+  height: 400px;
+  overflow: hidden;
+}
+
+.product-thumb {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+.card-btn {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 10px;
+  width: 90%;
+  text-transform: capitalize;
+  border: none;
+  outline: none;
+  background: #fff;
+  border-radius: 5px;
+  transition: 0.5s;
+  cursor: pointer;
+  opacity: 0;
+}
+
+.product-card:hover .card-btn {
+  opacity: 1;
+}
+
+.card-btn:hover {
+  background: #02295D;
+  color: #fff;
+}
+
+.pre-btn,
+.nxt-btn {
+  border: none;
+  width: 10vw;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #fff 100%);
+  cursor: pointer;
+  z-index: 8;
+}
+
+.pre-btn {
+  left: 0;
+  transform: rotate(180deg);
+}
+
+.nxt-btn {
+  right: 0;
+}
+
+.pre-btn img,
+.nxt-btn img {
+  opacity: 0.2;
+}
+
+.pre-btn:hover img,
+.nxt-btn:hover img {
+  opacity: 1;
+}
+
+
+
+.courses-section1 h2{
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+
+.courses-section1 p{
+  color: #FBBC04;
+  text-align: center;
+}
+
+.yellow-color{
+  color: #FBBC04;
+}
+
+.courses-section2 h1{
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  font-weight: semibold;
+  font-size: 16px;
+  text-decoration: none;
+  position: relative;
+
+}
+
+.courses-section3 img {
+  width: 20%;
+  border-radius: 10px;
+  padding: 0px 40px;
+  margin: 40px 0;
+  position: relative;
+  top: 30%;
+  left: 127px;
+
+}
+
+
+
+
+footer{
+background: linear-gradient(180deg, #0456C3 0%, #02295D 100%);
+color: #fff;
+margin-top: 100px;
+padding: 80px 0;
+
+}
+
+footer h3{
+padding-left: 150px;
+}
+
+footer a{
+text-decoration: none;
+color: #fff;
+
+}
+
+footer ul {
+list-style: none;
+padding-left: 150px;
+}
+
+footer ul li {
+margin: 16px 0;
+}
+
+footer .links-container {
+display: grid;
+grid-template-columns: 2fr 2fr 3fr;
+}
+
+footer .social{
+margin-left: 30px;
+}
+
+footer .social a{
+margin-right: 200px;
+position: relative; 
+top: 250px;
+left: 250px;
+
+}
+
+footer .copyright{
+position: absolute;
+margin-top: 10px;
+padding-left: 1160px;
+}
+

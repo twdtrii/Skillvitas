@@ -1,0 +1,33 @@
+.divider:after,
+.divider:before {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: #eee;
+
+}
+
+.img-fluid img{
+    height: 300px;
+    width: 600px;
+}
+
+.social-media{
+	display: flex;
+	justify-content: center;
+}
+
+.social-icon{
+	height: 46px;
+	width: 46px;
+	border: 1px solid #555;
+	margin: 0 0.45rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-decoration: none;
+	color: #02295D;
+	font-size: 1.3rem;
+	border-radius: 50%;
+	transition: all 0;
+}
